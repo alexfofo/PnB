@@ -1,0 +1,47 @@
+.no-selection {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+.letter {
+
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.listeGame {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+
+    /* text-align: center; */
+}
+
+#alphabet {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letter {
+    padding: 0px 5px;
+    text-align: center;
+}
+
+#guessWord {
+    letter-spacing: 5px;
+}
+
+#resetGame {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
