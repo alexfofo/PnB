@@ -50,20 +50,30 @@
       <img src="https://media.giphy.com/media/McPMviuW75KQHj525U/giphy.gif" alt="dancing">
     </div> -->
 
+    <div class="listeGame">
+      <p>Coups restants: <span id="remainingClicks">22</span></p>
+      <p id="guessWord">***</p>
+      <div id="alphabet"></div>
+      <div id="resetGame" class="no-selection" onclick="resetGame()"><em>reset</em></div>
+    </div>
+
 
   <div class="line invisible">
   </div>
 
 
-  <div class="listeGame">
-    <div id="resetGame" class="no-selection" onclick="buildGuessLine()">@</div>
-    <p id="guessWord">***</p>
-    <div id="alphabet"></div>
+  <!-- The Modal -->
+  <div id="modal" class="modal">
+  <!-- Modal content -->
+    <div class="modal-content">
+      <p>ce texte ne doit pas apparaitre</p>
+      <button id="okModal">OK</button>
+    </div>
+
   </div>
 
-
 <!-- Scripts -->
-  <script type="text/javascript" src="resources/js/liste.js"></script>
+  <script type="text/javascript" src="./resources/js/liste.js"></script>
 
   </body>
 </html>
